@@ -1,0 +1,32 @@
+.background {
+  background-image: url("background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.menu {
+  text-align: center;
+}
+.first-item {
+  max-width: 1200px;
+  padding-left: 281px;
+
+  display: flex;
+}
+
+.second-item {
+  justify-content: space-between;
+  display: flex;
+}
+
+.item_4 {
+  padding-left: 281px;
+}
+
+.item_5 {
+  padding-left: 0;
+}
+
+.item_6 {
+  padding-right: 281px;
+}
