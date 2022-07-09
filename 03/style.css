@@ -1,5 +1,13 @@
+@font-face {
+  font-family: ('MyriadPro-Regular'),
+
+src: url('fonts/MyriadPro-Regular.ttf ') format("truetype");
+}
+
 body {
-  font-family: "Maven Pro", sans-serif;
+  font-family: "Myriad Pro", Myriad, "Liberation Sans", "Nimbus Sans L",
+    "Helvetica Neue", Helvetica, Arial, sans-serif;
+
   color: white;
   margin: 0;
 }
@@ -7,7 +15,6 @@ body {
 /* header */
 
 .header {
-  font-family: "Maven Pro", sans-serif;
   max-width: 750px;
   max-height: 233px;
   height: 233px;
@@ -17,10 +24,6 @@ body {
 
   margin-left: auto;
   margin-right: auto;
-
-  top: 0;
-  left: 0;
-  right: 0;
 }
 
 .header_conteiner_inner {
@@ -51,7 +54,7 @@ body {
 /* section */
 
 .section-first {
-  font-family: "Maven Pro", sans-serif;
+  
   width: 750px;
   height: 462px;
 
@@ -61,19 +64,17 @@ body {
 }
 
 .background {
-  margin: 0 auto;
   text-align: center;
+  height: 100%;
 }
 
 .btn {
   background-color: rgb(203, 146, 35);
-  position: absolute;
-  left: 589px;
-  top: 576px;
-  width: 338px;
+  position: relative;
+  top: 369px;
   text-transform: uppercase;
   text-decoration: none;
-  padding: 27px 2px;
+  padding: 27px 47px;
   font-size: 20px;
   color: rgb(255, 255, 255);
 }
@@ -81,7 +82,7 @@ body {
 /* section 2 */
 
 .section-second {
-  font-family: "Maven Pro", sans-serif;
+  
   background-color: rgb(255, 255, 255);
   width: 750px;
   height: 1025px;
@@ -162,10 +163,11 @@ body {
 /* footer */
 
 .footer {
-  font-family: "Maven Pro", sans-serif;
+  
   background-color: rgb(136, 136, 136);
   width: 750px;
-  height: 154px;
+  padding-bottom: 26px;
+  padding-top: 32px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -184,6 +186,7 @@ body {
 
 .footer_address {
   margin-top: 78px;
+  margin-left: 105px;
 }
 
 .footer_data {
