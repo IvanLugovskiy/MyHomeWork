@@ -30,22 +30,23 @@
       format("woff");
 }
 
-body {
-  margin: 0;
-  background: url(background_main.png) center no-repeat;
-}
-
 /* main */
 
+body {
+  margin: 0;
+}
+
 .global-block {
-  margin-left: auto;
-  margin-right: auto;
-  align-content: center;
-  max-width: 1300px;
-  max-height: 826px;
+  background: url(./images/background_main.png);
 }
 
 /* header */
+
+.wrapper {
+  margin: auto;
+  max-width: 1300px;
+  height: 100%;
+}
 
 .header {
   width: 100%;
@@ -84,7 +85,7 @@ body {
 
 .EN {
   margin-top: 30px;
-  background: url(English.png) no-repeat;
+  background: url(./images/English.png) no-repeat;
   padding: 0px 0px 0px 35px;
   list-style: none;
 }
@@ -101,15 +102,13 @@ body {
 }
 
 .main-img {
-  position: relative;
-  top: 26px;
+  margin-top: 26px;
 }
 
 .main-roshen {
-  position: relative;
-  top: -300px;
   font-size: 59px;
   display: flex;
+  margin-top: -322px;
 }
 
 .main-roshen-one {
@@ -126,24 +125,23 @@ body {
 }
 
 .main-more {
-  position: relative;
-  text-align: center;
-  top: -333px;
+  width: 25%;
   font-size: 23px;
+  margin-top: -90px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .main-more-text {
-  top: -46px;
-  position: relative;
   font-weight: 700;
+  margin-top: -45px;
 }
 
 .main-ways {
-  position: relative;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  bottom: 240px;
+  margin-top: 50px;
 }
 
 .main-more-text-link {
@@ -161,8 +159,7 @@ body {
 }
 
 .main-dot {
-  position: relative;
-  bottom: 210px;
+  margin-top: 170px;
 }
 
 .main-dot-img2 {
@@ -176,7 +173,7 @@ body {
   font-family: "MinionPro-Bold";
   display: flex;
   align-items: flex-start;
-  font-weight: 700;
+  margin-top: -20px;
   text-align: justify;
 }
 
@@ -201,34 +198,40 @@ body {
   margin-right: 65px;
 }
 
-.info-container-data {
-  font-family: "MinionPro-Regular";
-  text-align: justify;
-  display: flex;
-  align-items: flex-start;
+.header-1 {
+  font-weight: 700;
+}
+
+.header-2 {
+  font-weight: 700;
+}
+
+.header-3 {
+  font-weight: 700;
+}
+
+.header-4 {
+  font-weight: 700;
+}
+
+.data-1 {
   margin-bottom: 20px;
   margin-top: 40px;
 }
 
-.data-1 {
-  width: 25%;
-  margin-left: 65px;
-  margin-right: 30px;
-}
-
 .data-2 {
-  width: 25%;
-  margin-right: 30px;
+  margin-bottom: 20px;
+  margin-top: 40px;
 }
 
 .data-3 {
-  width: 25%;
-  margin-right: 30px;
+  margin-bottom: 20px;
+  margin-top: 20px;
 }
 
 .data-4 {
-  width: 25%;
-  margin-right: 65px;
+  margin-bottom: 20px;
+  margin-top: 40px;
 }
 
 /* footer */
