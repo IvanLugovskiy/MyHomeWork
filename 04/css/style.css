@@ -98,10 +98,8 @@ body {
 .main-roshen {
   font-size: 59px;
   display: flex;
-  position: absolute;
-  left: 550px;
-  right: auto;
-  top: 112px;
+  position: relative;
+  bottom: 320px;
 }
 
 .main-roshen-one {
@@ -121,28 +119,22 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  position: absolute;
-  bottom: 475px;
-  left: 700px;
-  top: 250px;
+  position: relative;
+  bottom: 265px;
 }
 
 .main-more {
-  width: 25%;
   font-size: 23px;
   margin-left: auto;
   margin-right: auto;
-  position: absolute;
-  top: 200px;
-  right: 585;
-  left: 570px;
+  position: relative;
+  bottom: 360px;
 }
 
 .main-more-text {
   font-weight: 700;
-  position: absolute;
-  bottom: 20px;
-  left: 114px;
+  position: relative;
+  bottom: 45px;
 }
 
 .main-more-text-link {
@@ -152,20 +144,18 @@ body {
 .main-right {
   z-index: 1;
   position: relative;
-  left: 500px;
+  right: 25px;
 }
 
 .main-left {
   z-index: 1;
   position: relative;
-  right: 500px;
+  left: 25px;
 }
 
 .main-dot {
-  width: 100px;
-  position: absolute;
-  left: 710px;
-  top: 405px;
+  position: relative;
+  bottom: 235px;
 }
 
 .main-dot-img2 {
@@ -182,13 +172,13 @@ body {
   text-align: justify;
 }
 
+.info-container-headers div:last-child {
+  width: 25%;
+}
+
 .parts {
   width: 25%;
   margin-right: 30px;
-}
-
-.part-4 {
-  width: 25%;
 }
 
 .headers {
